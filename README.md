@@ -5,6 +5,7 @@
 - [bpmn-editor](#bpmn-editor)
   - [Table of Contents](#table-of-contents)
   - [About](#about)
+  - [Demo](#demo)
   - [Django Backend Installation Guide](#django-backend-installation-guide)
     - [1. Ensure You Have Python 3.8.x Installed](#1-ensure-you-have-python-38x-installed)
     - [2. Create a Virtual Environment](#2-create-a-virtual-environment)
@@ -25,11 +26,18 @@
     - [4. Install Frontend Dependencies](#4-install-frontend-dependencies)
     - [5. Run the Angular Dev Server](#5-run-the-angular-dev-server)
     - [6. Stopping the Development Server](#6-stopping-the-development-server)
+  - [Notes](#notes)
+  - [License](#license)
 
 ## About
 
 This is SUMM AI take-home assignment BPMN editor. 
 Please `Clone` or `Download` the Repository before proceeding to the next step.
+
+## Demo
+
+A short demo video is included as `demo.mp4` in the project root directory.
+You can open this file locally to see the BPMN editor in action.
 
 ## Django Backend Installation Guide
 
