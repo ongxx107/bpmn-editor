@@ -1,0 +1,9 @@
+body { margin: 0; font-family: system-ui, sans-serif; }
+
+/* Lock marker styling */
+.djs-element.locked-by-other .djs-outline {
+  stroke: #d93025 !important;
+  stroke-width: 3px !important;
+  stroke-dasharray: 4 2;
+  visibility: visible !important;
+}

@@ -1,0 +1,37 @@
+<div class="app-container">
+  <div class="toolbar">
+    <div class="toolbar-left">
+      <div class="room-name">
+        Room: <code>{{ roomName }}</code>
+      </div>
+      <div class="online-indicator">
+        <div class="online-dot"></div>
+        <span>{{ onlineUsers }}</span> online
+      </div>
+      <div class="lock-legend">
+        Locks:
+        <span class="lock-me">You</span>
+        <span class="lock-other">Other users</span>
+      </div>
+    </div>
+
+    <div class="toolbar-right">
+      <button type="button" (click)="undo()">Undo</button>
+      <button type="button" (click)="redo()">Redo</button>
+      <button type="button" (click)="fileInput.click()">Import BPMN</button>
+      <button type="button" (click)="downloadBPMN()">Download BPMN</button>
+
+      <input
+        #fileInput
+        type="file"
+        accept=".bpmn,.xml"
+        (change)="onImportBPMN($event)"
+        hidden
+      />
+    </div>
+  </div>
+
+  <div class="main-layout">
+    <div #ref class="canvas"></div>
+  </div>
+</div>
