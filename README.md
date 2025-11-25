@@ -32,6 +32,7 @@
 ## About
 
 This is SUMM AI take-home assignment BPMN editor. 
+It uses a **Django** backend with [**Django Channels**](https://channels.readthedocs.io/en/latest/) for WebSocket-based real-time server, and an **Angular** frontend framework that renders and edits BPMN diagrams using **bpmn-js**. 
 Please `Clone` or `Download` the Repository before proceeding to the next step.
 
 ## Demo
