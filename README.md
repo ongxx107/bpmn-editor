@@ -7,7 +7,7 @@
   - [About](#about)
   - [Demo](#demo)
   - [Django Backend Installation Guide](#django-backend-installation-guide)
-    - [1. Ensure You Have Python 3.8.x Installed](#1-ensure-you-have-python-38x-installed)
+    - [1. Ensure You Have Python 3.10.x Installed](#1-ensure-you-have-python-310x-installed)
     - [2. Create a Virtual Environment](#2-create-a-virtual-environment)
     - [3. Activate the Virtual Environment](#3-activate-the-virtual-environment)
     - [4. Upgrade `pip`](#4-upgrade-pip)
@@ -44,7 +44,7 @@ You can open this file locally to see the BPMN editor in action.
 
 To set up this Django project on your local machine, please follow the steps below:
 
-### 1. Ensure You Have Python 3.8.x Installed
+### 1. Ensure You Have Python 3.10.x Installed
 
 Make sure you have Python 3.10.x installed on your system. You can verify your Python version by running:
 
